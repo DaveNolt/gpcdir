@@ -12,7 +12,7 @@ namespace gpcdir
         {
             if (args.Length != 1)
             {
-                Console.Error.WriteLine("There must only 1 integer argument");
+                Console.Error.WriteLine("There must be only 1 integer argument");
                 return;
             }
             int input = Convert.ToInt32(args[0]);
